@@ -1,0 +1,67 @@
+/* .container{
+margin: 2px solid black;
+background-color: skyblue;
+width: 600px;
+height: 600px;
+display: flex;
+align-items: center;
+justify-content: center;
+} */
+.outercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    border: 2px solid white;
+    background-color: skyblue;
+    width: 250px;
+    /* height: 600px; */
+   
+    }
+    .innercontainer{
+        /* display: grid; */
+        /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+        /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+        /* border: 2px solid white;     */
+        display: flex;
+        justify-content: space-around;
+        
+        
+
+        
+    }
+    .box{
+        width: 40px;
+        height: 40px;
+         border: 2px solid white; 
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: medium;
+        box-shadow: 1px 10px 8px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 10px 8px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 10px 8px -3px rgba(0,0,0,0.75);
+    }
+    .calculaterdisplay{
+        height: 50px;
+        width: 230px;
+        background-color: white !important;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 1px 10px 8px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: 1px 10px 8px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 10px 8px -3px rgba(0,0,0,0.75);
+    }
+    .yellow{
+        background-color: lightgreen;
+        color: white;
+    }
+    .pink{
+        background-color: pink;
+    }
+    .gray{
+        background-color: gainsboro;
+    }
